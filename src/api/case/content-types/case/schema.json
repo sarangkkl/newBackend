@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "Case",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Halala",
+        "Mutah",
+        "Love Jihad",
+        "HonorKillings",
+        "HateKillings",
+        "SunnatMarriage",
+        "Other"
+      ]
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "ShortDescription": {
+      "type": "text"
+    },
+    "IncidenDate": {
+      "type": "date"
+    },
+    "State": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "RefrenceDescription": {
+      "type": "text"
+    }
+  }
+}

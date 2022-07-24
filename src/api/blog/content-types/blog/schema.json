@@ -20,6 +20,23 @@
       "targetField": "title",
       "required": true
     },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "json"
+    },
     "body": {
       "type": "richtext"
     }

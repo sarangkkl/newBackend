@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gharwapasi_applications",
+  "info": {
+    "singularName": "gharwapasi-application",
+    "pluralName": "gharwapasi-applications",
+    "displayName": "GharwapasiApplication",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "private": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "private": true
+    },
+    "Address": {
+      "type": "text",
+      "private": true
+    },
+    "AadharNumber": {
+      "type": "string",
+      "private": true,
+      "maxLength": 12,
+      "minLength": 12
+    },
+    "AadharPdf": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ApplicantImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
