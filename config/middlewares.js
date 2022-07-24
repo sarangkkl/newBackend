@@ -1,6 +1,5 @@
 module.exports = ({env})=> [
   'strapi::errors',
-  // "strapi::security",
  
   {
     name: "strapi::security",
